@@ -2,7 +2,7 @@
 
 ## Microsoft Azure
 
-This tutorial leverages the [Microsoft Azure](https://azure.microsoft.com) to streamline provisioning of the compute infrastructure required to bootstrap a Kubernetes cluster from the ground up. 
+This tutorial leverages [Microsoft Azure](https://azure.microsoft.com) to streamline provisioning of the compute infrastructure required to bootstrap a Kubernetes cluster from the ground up. 
 
 
 ### Install the Microsoft Azure CLI 2.0
