@@ -102,4 +102,4 @@ Delete the HPA but leave the deployment as they'll be reused in the next lab.
 horizontalpodautoscaler.autoscaling "frontend-v1" deleted
 ```
 
-Next: [Horizontal Scaling - Memory Lab](07-horizontal-scaling-mem.md)
+Next: [Horizontal Scaling - Memory Lab](07-horizontal-scaling-mem-lab.md)
