@@ -1,17 +1,17 @@
-# Kubernetes Resource Limits and Quality of Service (QOS)
+# Kubernetes Resource Limits and Quality of Service (QoS)
 
 
 ## Resource Limits
 
 All information about resource limits can be found on the Kubernetes documentation page for[Manage Compute Resources](https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/).
 
-## QOS
+## QoS
 
-All information about QOS can be found on the Kubernetes documentation page for [Configure Quality of Service for Pods](https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/).  It important to read and undertands what is presented there.
+All information about QoS can be found on the Kubernetes documentation page for [Configure Quality of Service for Pods](https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/).  It important to read and undertands what is presented there.
 
-### Additional QOS information
+### Additional QoS information
 
-However a bit more explanation about the importance of QOS is in order, since it relates to scaling.
+However a bit more explanation about the importance of QoS is in order, since it relates to scaling.
 
 Most of the Pod definitions examples ignore the requests and limits parameters. You are not strictly required to include them when designing your cluster. Adding or ignoring requests and limits affects the Quality of Service (QoS) that the Pod receives as follows:
 
@@ -23,7 +23,7 @@ Most of the Pod definitions examples ignore the requests and limits parameters. 
 
 We can summarize how the Kubelet deals with Pod priority as follows:
 
-![QOS Table](images/qos-table.png)
+![QoS Table](images/QoS-table.png)
 
 ### Priority Considerations
 
@@ -61,6 +61,6 @@ spec:
 
 ### Links
 
-* [Kubernetes QOS](https://medium.com/better-programming/the-kubernetes-quality-of-service-conundrum-eebbbb5f89cf)
+* [Kubernetes QoS](https://medium.com/better-programming/the-kubernetes-quality-of-service-conundrum-eebbbb5f89cf)
 
-Next: [QOS Lab](04-qos-lab.md)
+Next: [QoS Lab](04-qos-lab.md)
