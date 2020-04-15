@@ -1,0 +1,18 @@
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: frontend-v2
+spec:
+  maxReplicas: 5
+  minReplicas: 2
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: oom-frontend
+  metrics:
+  - resource:
+      name: memory
+      target:
+          type: Utilization
+          averageUtilization: 50
+    type: Resource
