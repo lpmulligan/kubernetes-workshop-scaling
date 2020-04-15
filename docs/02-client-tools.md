@@ -76,4 +76,4 @@ kubectl version --short
 Client Version: v1.17.3
 ```
 
-Next: [Resource Limits and QOS](03-resource-limits-and-qos.md)
+Next: [Resource Limits and QoS](03-resource-limits-and-qos.md)
