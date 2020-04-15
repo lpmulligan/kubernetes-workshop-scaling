@@ -152,4 +152,4 @@ deployment.apps "oom-frontend" deleted
 service "frontend" deleted
 ```
 
-Next: [Vertical Scaling](08-verical-scaling.md)
+Next: [Vertical Scaling](08-vertical-scaling.md)
