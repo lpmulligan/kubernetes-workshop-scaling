@@ -39,6 +39,7 @@ Default timing values for AKS:
 ## Links
 
 * [Kubernetes HPA Documentation](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
+* [Autoscaling Design Proposal](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/autoscaling/horizontal-pod-autoscaler.md?source=post_page#autoscaling-algorithm)
 * [Autoscaling 101](https://levelup.gitconnected.com/kubernetes-autoscaling-101-cluster-autoscaler-horizontal-pod-autoscaler-and-vertical-pod-2a441d9ad231)
 * [Best Practices for Autoscaling](https://www.replex.io/blog/kubernetes-in-production-best-practices-for-cluster-autoscaler-hpa-and-vpa)
 * [AKS Scaling Tutorial](https://docs.microsoft.com/en-au/azure/aks/tutorial-kubernetes-scale)
