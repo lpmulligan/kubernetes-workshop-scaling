@@ -8,6 +8,22 @@ Autoscaling is configured with a Custom Resource Definition object called Vertic
 
 > Vertical Pod Autoscaling is a recent feature and is not yet available in AKS.  However, it does work and may be able to assist with sizing pod requests and limits.
 
+## VPA Components
+
+* Recommender
+    
+    Monitors the current and past resource consumption, and provides recommended values for the container’s CPU and memory requests
+
+* Updater
+
+    Checks which of the pods have the correct resources set, and if they don’t, kills them so that they can be re-created by their controllers with the updated requests
+
+* Admission Plugin
+
+    Sets the correct resource requests on new pods
+
+> As of Kubernetes v1.15, the VPA is not recommended for production deployments.
+
 ## Installation
 
 Follow, the install documents [here](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler).
