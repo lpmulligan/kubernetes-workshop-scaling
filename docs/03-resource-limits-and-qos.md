@@ -23,7 +23,7 @@ Most of the Pod definitions examples ignore the requests and limits parameters. 
 
 We can summarize how the Kubelet deals with Pod priority as follows:
 
-![QoS Table](images/QoS-table.png)
+![QoS Table](../images/QoS-table.png)
 
 ### Priority Considerations
 
